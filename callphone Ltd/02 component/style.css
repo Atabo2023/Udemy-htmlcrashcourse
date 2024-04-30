@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 9rem;
+}
+
+.container {
+  position: relative;
+}
+
+.content-text {
+  display: flex;
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  padding: 9.6rem 4.8rem 10rem;
+  position: absolute;
+}
+
+.text {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.5rem 2rem 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  position: absolute;
+  right: 45%;
+  bottom: 25%;
+}
+
+/* .circles {
+  position: relative;
+  margin: 5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+background: #ffffff;
+} */
+
+/* .big-circle {
+  background-color: red;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(9, 112, 26) 0%,
+    rgb(21, 255, 0) 100%
+  ); 
+  content: "";
+   position: absolute;
+  right: 85%;
+  top: 10px; 
+  transform: translate(20%, -50%);
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  right: -20px;
+  left: -20px;
+  z-index: -2;
+} */
+
+/* .btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  right: 50%;
+  bottom: 25%;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem solid #fff;
+} */
+
+/* .dots {
+  position: relative;
+  left: 85%;
+  top: -1px;
+  transform: translate(20%, 35px);
+}
+
+.dot {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #087f5b;
+  border: 10px solid #fff;
+  stroke: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+} */

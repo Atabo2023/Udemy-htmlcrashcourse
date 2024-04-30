@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omini food Hero Section</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+      header {
+        /* background-color: orangered; */
+        height: 100vh;
+        position: relative;
+
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+
+        /* background-image: linear-gradient(to right, red, blue); */
+
+        /* background-color: green; */
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        /* In relation to the PARENT size */
+        left: 50%;
+        top: 50%;
+
+        /* In relation to the ELEMENT size */
+        transform: translate(-50%, -50%);
+
+        /* background-color: violet; */
+
+        /* text-align: center; */
+      }
+
+      .header-container-inner {
+        width: 50%;
+        /* background-color: blue; */
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>A heathy lunch delivered to callphone staffs every mid-day</h1>
+          <p>
+            The smart 365-days-per-year food subcription for Callphone limited
+            staffs that will make them eat healthy for proper delivering of
+            their service to Callphone limited. Tailor to their personal tastes
+            and their nutritional needs.
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>
+          Some criterial for registration of daily delivery of lunch to
+          Callphone limited staffs
+        </h2>
+        <p>
+          The management of Callphone limited wish to inform her entire staffs
+          to register for daily supply of lunch which the cost will be deducted
+          from their salary by the end each month. However the Management has
+          make important provisions for delicious and healthy distributions of
+          lunch to various departments at their duity post on the agreement for
+          deduction of the sum of the amounts from their monthly salary.
+        </p>
+        <p>Eligibility</p>
+        <p>
+          To subscribe for the lunch you must be the staff of Callphone Limited
+          on the salary of not less than fifty thousand naira. corps members
+          posted to callphone limited are not eligiable to apply for the above
+          benefits including all the interns. However they can buy the food on
+          instant payment or payment on delivery. The management
+        </p>
+
+        <h3>Please Click the Link Below to Register for the Lunch</h3>
+        <a
+          href="https://www.tripadvisor.com/Restaurants-g293825-Abuja_Federal_Capital_Territory.html"
+          >Subscribe Here</a
+        >
+      </div>
+    </section>
+    <button>Callphone Limited</button>
+  </body>
+</html>
